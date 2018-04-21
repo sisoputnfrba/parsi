@@ -1,0 +1,6 @@
+[submodule "so-commons-library"]
+	path = so-commons-library
+	url = https://github.com/sisoputnfrba/so-commons-library.git
+[submodule "cspec"]
+	path = cspec
+	url = https://github.com/mumuki/cspec.git

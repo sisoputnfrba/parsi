@@ -1,0 +1,14 @@
+language: c
+compiler: gcc
+
+before_install: cd tests/
+install: make install-deps
+
+script: make test
+
+branches:
+  only: master
+
+notifications:
+  email:
+    - j@florius.com.ar

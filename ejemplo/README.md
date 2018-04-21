@@ -1,0 +1,1 @@
+Ejecutar el lector de archivos, pasandole como primer argumento al programa el archivo a leer.
