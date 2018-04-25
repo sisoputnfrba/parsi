@@ -35,7 +35,7 @@ int main(int argc, char **argv){
             
             destruir_operacion(parsed);
         } else {
-            fprintf(stderr, "La liena <%s> no e svalida\n", line);
+            fprintf(stderr, "La linea <%s> no es valida\n", line);
             exit(EXIT_FAILURE);
         }
     }
