@@ -1,7 +1,9 @@
 all: 
 	-cd src && $(MAKE) all
-	-cd src && sudo $(MAKE) install
 	-cd tests && $(MAKE) all
+
+install:
+	-cd src && sudo $(MAKE) install
 
 clean:
 	-cd ejemplo && $(MAKE) clean
